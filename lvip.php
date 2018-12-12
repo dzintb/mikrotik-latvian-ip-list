@@ -2,7 +2,7 @@
 
 header('Content-Type: text/plain');
 $source = 'https://www.nic.lv/local.net';
-$list = 'lv';
+$list   = 'lv';
 
 $ips = [];
 if ($file = fopen($source, 'rb')) {
@@ -11,13 +11,13 @@ if ($file = fopen($source, 'rb')) {
         if (empty($line) || 0 === strpos($line, '#')) {
             continue;
         }
-        $ips[] = trim($line);
+        $ips[] = $line;
     }
     fclose($file);
 }
 $ips = array_unique($ips);
 
-if (empty($ips)){
+if (empty($ips)) {
     die("# failed to get ip list\n");
 }
 
