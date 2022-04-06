@@ -17,6 +17,7 @@ add list=lv address=45.11.192.0/22
 add list=lv address=45.13.96.0/22
 add list=lv address=45.65.124.0/24
 add list=lv address=45.65.126.0/23
+add list=lv address=45.93.23.0/24
 add list=lv address=46.16.128.0/22
 add list=lv address=46.19.144.0/21
 add list=lv address=46.19.200.0/21
@@ -32,6 +33,7 @@ add list=lv address=62.128.106.0/24
 add list=lv address=62.205.192.0/18
 add list=lv address=77.38.128.0/17
 add list=lv address=77.73.32.0/24
+add list=lv address=77.73.71.0/24
 add list=lv address=77.93.0.0/19
 add list=lv address=77.219.0.0/19
 add list=lv address=77.240.244.0/22
@@ -186,7 +188,6 @@ add list=lv address=94.140.96.0/19
 add list=lv address=94.186.40.0/21
 add list=lv address=94.186.48.0/20
 add list=lv address=94.186.64.0/18
-add list=lv address=95.46.7.0/24
 add list=lv address=95.68.0.0/17
 add list=lv address=95.130.32.0/21
 add list=lv address=95.131.112.0/21
@@ -251,6 +252,7 @@ add list=lv address=185.113.170.0/24
 add list=lv address=185.116.211.0/24
 add list=lv address=185.118.76.0/22
 add list=lv address=185.129.148.0/24
+add list=lv address=185.129.151.0/24
 add list=lv address=185.141.52.0/22
 add list=lv address=185.144.184.0/22
 add list=lv address=185.145.245.0/24
@@ -264,12 +266,11 @@ add list=lv address=185.182.92.0/22
 add list=lv address=185.205.60.0/22
 add list=lv address=185.209.0.0/22
 add list=lv address=185.211.96.0/22
-add list=lv address=185.213.200.0/24
-add list=lv address=185.213.202.0/23
+add list=lv address=185.213.200.0/22
 add list=lv address=185.219.156.0/22
+add list=lv address=185.242.106.0/23
 add list=lv address=185.250.116.0/22
 add list=lv address=185.253.61.0/24
-add list=lv address=185.253.62.0/23
 add list=lv address=188.64.176.0/21
 add list=lv address=188.92.16.0/21
 add list=lv address=188.92.72.0/21
@@ -342,7 +343,6 @@ add list=lv address=194.152.32.0/23
 add list=lv address=194.153.79.0/24
 add list=lv address=194.153.171.0/24
 add list=lv address=194.187.68.0/22
-add list=lv address=194.187.100.0/22
 add list=lv address=194.187.119.0/24
 add list=lv address=194.213.9.0/24
 add list=lv address=194.213.100.0/23
@@ -370,9 +370,6 @@ add list=lv address=195.162.74.0/24
 add list=lv address=195.178.96.0/23
 add list=lv address=195.182.47.0/24
 add list=lv address=195.211.156.0/22
-add list=lv address=195.216.168.0/23
-add list=lv address=195.216.177.128/25
-add list=lv address=195.216.185.0/24
 add list=lv address=195.216.236.0/24
 add list=lv address=195.234.144.0/24
 add list=lv address=195.244.128.0/19
@@ -412,8 +409,6 @@ add list=lv address=213.110.64.0/19
 add list=lv address=213.121.216.0/23
 add list=lv address=213.175.64.0/18
 add list=lv address=213.180.96.0/19
-add list=lv address=213.182.193.0/24
-add list=lv address=213.182.220.0/22
 add list=lv address=213.226.128.0/18
 add list=lv address=213.252.192.0/18
 add list=lv address=217.21.160.0/20
